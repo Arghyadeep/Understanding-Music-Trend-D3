@@ -4,47 +4,89 @@
     <head>
         
         
+        
         <meta charset="utf-8">
         <title>Project Proposal</title>
         <script src = "https://d3js.org/d3.v4.min.js "></script>
     </head>
     <header>
-        
-        <h1 align="center">Understanding Recent Trends in Music for different Locations</h1>
-        <h2 align = "center">Arghyadeep Giri</h2>
-        <h3 align = "center">argiri@ucsc.edu &nbsp;&nbsp;&nbsp;Student ID: 1566630</h3>
-        
-        <hr>
-        <h4>Objective</h4>
-        <div class="content">
-        <p>The process would be track top 100 (or any other number) artists for a certain period for a certain region. Hence, we need to figure out the genre of the songs for those artists. Also, the top 100 listened song for a location for a certain time would help us detect preferred genre. Since this keeps on changing with time and place we could visualize the trend in music.</p>
-        </div>
-        <hr>
-        
-        <hr>
-        <h4>Data Sources</h4>
-        <p>This is the primary source of spatial data for the project. One needs to sign up with a valid existing email ID to access data.</p>
-        <a href="http://www.whalereport.com/#/app/chart/spotify/us" target="_blank">visit whale report to access data</a>
-        
-        <p>This is the primary source of temporal data for the project.</p>
-        <a href=https://www.billboard.com/charts/artist-100 target="_blank">visit billboard for top 100 artists data with time</a>
-        <hr>
-        
-        <hr>
-        <h4>Vizualisation Sources</h4>
-        <p>The kind of visualization that I am looking for is close to the ones in the following links. </p>
-        <a href="https://www.musicmap.info/" target="_blank">visualization for music genre prevalence with time</a>
-        <p></p>
-        <a href="https://flowingdata.com/2017/08/07/music-preference-geography/" target="_blank">spatial data visualization</a>
-        <hr>
-        
-         
-    </header>
+        <style>
+            #background { 
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+}
+            
+            * {
+    box-sizing: border-box;
+}
+
+/* Create 4 equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
     
-    <body>
+}
+
+            div.a {
+    text-align: center;
+}
+
+div.b {
+    text-align: left;
+}
+
+div.c {
+    text-align: right;
+}
+        </style>
+        <h1 align="center">Understanding Recent Trends in Music for different Locations</h1>
         
-        <script type="text/javascript">
-            // Your beautiful D3 code will go here
-        </script>
-    </body>
-</html>
+        <div class="a">
+<p>The process would be track top 100 (or any other number) artists for a certain period for a certain region. Hence, we need to figure out the genre of the songs for those artists. Also, the top 100 listened song for a location for a certain time would help us detect preferred genre. Since this keeps on changing with time and place we could visualize the trend in music.</p>
+</div>
+        <div id="background">
+        <div class = "b">
+            <h3><b>Created by:</b></h3> 
+            <p>Arghyadeep Giri<br>email: argiri@ucsc.edu<br>
+            <a href="https://github.com/Arghyadeep/Understanding-Music-Trend-D3" target="_blank">Github Link</a>
+            </p>
+            
+            <h3><b>Designed for:</b></h3>
+            <p>CMPS 263</p>
+        </div>
+        
+            <div class="row">
+          <div class="column" style="background-color:#aaa;">
+            <h3>Files Submitted</h3>
+            <p>index.html<br>index.css</p>
+          </div>
+          <div class="column" style="background-color:#bbb;">
+            <h3>Data Sources</h3>
+            <p><a href="http://www.whalereport.com/#/app/chart/spotify/us" target="_blank">visit whale report to access data</a><br>
+              <a href=https://www.billboard.com/charts/artist-100 target="_blank">visit billboard for top 100 artists data with time</a><br>
+              </p>
+          </div>
+        </div>
+            <div class="row">
+        <div class="column" style="background-color:#aaa;">
+        <h3>Relevant Visualization Sources</h3>
+        <p><a href="https://www.musicmap.info/" target="_blank">visualization for music genre prevalence with time</a><br>
+            <a href="https://flowingdata.com/2017/08/07/music-preference-geography/" target="_blank">spatial data visualization</a>
+            </p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h3>Code Sources</h3>
+        <p><a href="https://musicmachinery.com/category/code/" target="_blank">timeline code source</a><br>
+            <a href="http://bl.ocks.org/tjdecke/5558084" target="_blank">heatmaps for trend</a>
+          </p>
+      </div>
+    </div>
+        </div>
+        
+
+
+        
+        
